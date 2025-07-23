@@ -12,7 +12,6 @@ const openai = new OpenAI({
 exports.generateChatResponse = async (req, res) => {
   try {
     const { prompt } = req.body;
-    console.log("Received prompt:", prompt);
 
     const completion = await openai.chat.completions.create({
       model: "gpt-4o-mini",
