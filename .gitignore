@@ -2,7 +2,6 @@
 node_modules/
 
 # Environment variables
-.env
 
 # Logs
 logs/
@@ -17,6 +16,9 @@ dist/
 build/
 
 # IDE files
-.vscode/
 .idea/
 *.swp
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
