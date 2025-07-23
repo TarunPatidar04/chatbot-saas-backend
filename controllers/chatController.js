@@ -1,5 +1,3 @@
-// const dotenv = require("dotenv");
-// dotenv.config();
 const OpenAI = require("openai");
 
 const Chat = require("../models/Chat");
